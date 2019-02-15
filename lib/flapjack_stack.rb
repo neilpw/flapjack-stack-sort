@@ -1,5 +1,12 @@
 # A stack of flapjacks, modeled as an array of integers.
 #
+# Similar to an actual stack of pancakes, two operations are allowed:
+#
+#   1. You can inspect the flapjack at a given position.
+#
+#   2. You can insert a spatula into the a given position at the stack and flip
+#      the section of the stack above the spatula.
+#
 class FlapjackStack
   attr_reader :values
 
